@@ -26,7 +26,6 @@ module.exports = function fruitGen () {
         "Cloudberry",
         "Coco De Mer",
         "Coconut",
-        "Crab apple",
         "Cranberry",
         "Currant",
         "Damson",
