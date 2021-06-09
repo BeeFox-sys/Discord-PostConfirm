@@ -79,7 +79,7 @@ module.exports = function fruitGen () {
         "Musk melon",
         "Watermelon",
         "Miracle fruit",
-        "Monstera deliciosa",
+        "Cheese Plant",
         "Mulberry",
         "Nance",
         "Nectarine",
