@@ -101,7 +101,7 @@ client.on("message", async (message) => {
                         = await client.channels.fetch(process.env.DESTINATION_CHANNEL);
                     const feedback = await destination.send(feedbackEmbed);
 
-                    dmMessage.channel.send("Your feedback has been recorded!");
+                    dmMessage.channel.send("Thank you for your feedback! It has been posted in a private channel for the developers to read.");
                     feedback.react("✅");
                 
                 }
