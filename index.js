@@ -2,14 +2,14 @@
 require("dotenv").config();
 const {Client, MessageEmbed} = require("discord.js");
 
-const confirmationMessage = `Hello and thank you for submitting feedback for the Blaseball website! **Before confirming your feedback, please consider:** 
+const confirmationMessage = `Hello and thank you for submitting feedback for the Blaseball website! Before confirming your feedback, please consider: 
 
-:writing_hand: Helpful/appropriate feedback **explains your own experiences and reactions to Blaseball,** rather than providing theoretical solutions or dipping into speculative game design. 
-:writing_hand: We also ask that you do not provide further feedback on **vaulted topics** in order to minimize repeat feedback that devs are familiar with (check the pins in <#732322231119511573> for a list of **vaulted topics**). 
-:writing_hand: Please keep your feedback focused on general mechanics and website features, rather than targeting specific teams!
-:writing_hand: Feedback will be reviewed by Custodians, and inappropriate feedback will be removed if it does not follow channel guidelines or server rules.
+:writing_hand: Helpful/appropriate feedback explains your own experiences and reactions to Blaseball, ideally using "I" statements.
+:writing_hand: Please keep your feedback focused on general mechanics and website features.
+:writing_hand: Feedback will be reviewed by Custodians, and inappropriate feedback will be removed if it does not follow channel guidelines or server rules. Feedback is still subject to server rules and moderation action.
+:writing_hand: Images do not currently send through with peepers, if images are important to your feedback please DM modmail and we will post it in the channel for you.
 
-**All set to post?** Reply \`FRUIT\` to complete the feedback submission process, or \`CANCEL\` to remove your submission.`;
+All set to post? Reply FRUIT to complete the feedback submission process, or CANCEL to remove your submission.`;
 
 
 const client = new Client({
