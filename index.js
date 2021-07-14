@@ -9,7 +9,7 @@ const confirmationMessage = `Hello and thank you for submitting feedback for the
 :writing_hand: Feedback will be reviewed by Custodians, and inappropriate feedback will be removed if it does not follow channel guidelines or server rules. Feedback is still subject to server rules and moderation action.
 :writing_hand: Images do not currently send through with peepers, if images are important to your feedback please DM modmail and we will post it in the channel for you.
 
-All set to post? Reply FRUIT to complete the feedback submission process, or CANCEL to remove your submission.`;
+All set to post? Reply "FRUIT" to complete the feedback submission process, or CANCEL to remove your submission.`;
 
 
 const client = new Client({
